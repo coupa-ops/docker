@@ -17,4 +17,4 @@ supports 'fedora'
 supports 'redhat'
 supports 'ubuntu'
 
-gem 'docker-api', '>= 1.34', '< 3'
+gem 'docker-api', git: 'https://github.com/coupa-ops/docker-api.git', ref: '66f4043d57317c2003dc4e6459fd870b097104a4'
